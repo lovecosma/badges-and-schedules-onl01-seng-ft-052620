@@ -30,6 +30,6 @@ def printer(attendees)
   @room_assignments = assign_rooms(@attendees)
   @counter = 0
 while @counter < @badges.length
-puts badges[@counter]
+puts @badges[@counter]
 end
 end
