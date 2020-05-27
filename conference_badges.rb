@@ -14,4 +14,4 @@ return @badges
 end
 
 def assign_rooms(speakers)
-end 
+end
