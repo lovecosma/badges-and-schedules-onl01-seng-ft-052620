@@ -31,6 +31,7 @@ def printer(attendees)
   @counter = 0
 while @counter < @badges.length
 puts @badges[@counter]
+puts @room_assignments[@counter]
 @counter += 1
 end
 end
