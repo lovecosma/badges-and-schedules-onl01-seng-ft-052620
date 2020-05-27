@@ -8,8 +8,8 @@ end
 
 def batch_badge_creator(names = [])
 @names = names
-@badges = badges
+@badges = []
 @names.each do |values|
-
+@bagdes
 end
 end
