@@ -24,8 +24,9 @@ end
 return @room_assignment
 end
 
-def printer(badges, room_assignments)
-  @badges = badges
+def printer(attendees)
+  @attendees = attendees
+  @badges = attendees.batch_badge_creator
   @room_assignments = room_assignments
-  puts @badges, @room_assignments
+  
 end
