@@ -14,4 +14,7 @@ return @badges
 end
 
 def assign_rooms(speakers)
+@speakers = speakers
+room_number = 1
+@speaker.each do |value|
 end
