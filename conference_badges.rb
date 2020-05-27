@@ -8,4 +8,5 @@ end
 
 def batch_badge_creator(names = [])
 @names = names
+
 end
