@@ -6,6 +6,6 @@ def badge_maker(name)
   return @badge
 end
 
-def batch_badge_creator(badge)
+def batch_badge_creator(badge = [])
 @badge = badge 
 end
