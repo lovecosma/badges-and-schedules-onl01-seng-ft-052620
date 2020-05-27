@@ -11,4 +11,5 @@ def batch_badge_creator(names = [])
 @names.each do |values|
 @badges << badge_maker(values)
 end
+return @badges
 end
