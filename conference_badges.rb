@@ -30,6 +30,6 @@ def printer(attendees)
   @room_assignments = assign_rooms(@attendees)
   @attendees.each do |value|
     puts badge_maker(value)
-  end 
+  end
 
 end
