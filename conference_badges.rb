@@ -7,5 +7,5 @@ def badge_maker(name)
 end
 
 def batch_badge_creator(badge = [])
-@badge = badge 
+@badge = badge
 end
