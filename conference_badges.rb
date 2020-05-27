@@ -15,6 +15,6 @@ end
 
 def assign_rooms(speakers)
 @speakers = speakers
-room_number = 1
+room_numbers = []
 @speaker.each do |value|
 end
