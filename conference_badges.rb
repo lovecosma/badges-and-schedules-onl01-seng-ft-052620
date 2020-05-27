@@ -23,3 +23,9 @@ def assign_rooms(speakers)
 end
 return @room_assignment
 end
+
+def printer(badges, room_assignments)
+  @badges = badges
+  @room_assignments = room_assignments
+  puts @badges, @room_assignments
+end
