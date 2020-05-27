@@ -28,4 +28,5 @@ def printer(attendees)
   @attendees = attendees
   @badges = batch_badge_creator(@attendees)
   @room_assignments = assign_rooms(@attendees)
+  puts @badges
 end
