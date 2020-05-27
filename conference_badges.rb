@@ -19,7 +19,7 @@ def assign_rooms(speakers)
 @counter = 0
 @room_assignment = []
 @speakers.each do |value|
-@room_assignment << "Hello, #{value} You'll be assigned to room #{@counter}!"
+@room_assignment << "Hello, #{value}! You'll be assigned to room #{@counter}!"
 @counter += 1
 end
 return @room_assignment
