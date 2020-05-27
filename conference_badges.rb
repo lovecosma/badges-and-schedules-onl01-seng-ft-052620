@@ -28,9 +28,6 @@ def printer(attendees)
   @attendees = attendees
   @badges = batch_badge_creator(@attendees)
   @room_assignments = assign_rooms(@attendees)
-  @prints = []
-  @attendees.each do |value|
-    puts "Hello, Edsger! You'll be assigned to room 1!"
-  end
+  puts @badges
 
 end
