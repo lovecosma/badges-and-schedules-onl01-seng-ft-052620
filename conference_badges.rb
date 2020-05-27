@@ -27,6 +27,6 @@ end
 def printer(attendees)
   @attendees = attendees
   @badges = attendees.batch_badge_creator
-  @room_assignments = 
+  @room_assignments =
 
 end
