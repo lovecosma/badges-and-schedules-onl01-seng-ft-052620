@@ -13,7 +13,7 @@ end
 return @badges
 end
 
-def assign_rooms(speakers)
+def assign_rooms(speakers = [])
 @speakers = speakers
 @counter = 1
 @room_assignment = []
@@ -27,6 +27,6 @@ end
 def printer(attendees)
   @attendees = attendees
   @badges = attendees.batch_badge_creator
-  @room_assignments = room_assignments
+  @room_assignments = 
 
 end
