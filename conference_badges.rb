@@ -9,6 +9,6 @@ def batch_badge_creator(names = [])
 @names = names
 @badges = []
 @names.each do |values|
-@badges <<
+@badges << badge_maker(values)
 end
 end
